@@ -1,0 +1,194 @@
+/* General page layout */
+.services-page {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    color: #333;
+    padding-bottom: 60px;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #222;
+    color: #fff;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav a:hover {
+    color: #ffcc00;
+  }
+  
+  .logout-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-btn:hover {
+    background-color: #e60000;
+  }
+  
+  .profile-name {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  
+  /* Page Title */
+  .page-title {
+    text-align: center;
+    font-size: 32px;
+    margin: 30px 0 10px;
+  }
+  
+  /* Service Grid */
+  .service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    padding: 30px;
+    justify-items: center;
+  }
+  
+  .service-card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .service-thumb {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card button {
+    background-color: #222;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .service-card button:hover {
+    background-color: #ffcc00;
+    color: #222;
+  }
+  
+  /* Service Detail View */
+  .service-detail {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .service-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .service-detail h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .service-detail p {
+    font-size: 16px;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 20px;
+  }
+  
+  .service-detail button {
+    background-color: #222;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .service-detail button:hover {
+    background-color: #ffcc00;
+    color: #222;
+  }
+  
+  /* Book Now Section */
+  .book-now-section {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .book-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
