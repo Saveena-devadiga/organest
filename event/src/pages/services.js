@@ -42,7 +42,7 @@ export default function Services() {
     } else {
       navigate("/login");
     }
-  }, []);
+  }, [navigate]);
   
 
   const handleLogout = () => {

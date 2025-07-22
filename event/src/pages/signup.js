@@ -7,7 +7,7 @@ const Signup = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const navigate = useNavigate();
+  console.log(navigate);
 
   const handleSignup = async (e) => {
     e.preventDefault();
