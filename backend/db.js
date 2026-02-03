@@ -5,9 +5,9 @@ const mysql = require("mysql2");
 const db = mysql.createConnection({
   host: "localhost",     // MySQL host
   user: "root",          // MySQL username (default in XAMPP is 'root')
-  password: "savi@123",  // Replace with your password
+  password: "",  // Replace with your password
   database: "organest_db",  // The name of your database
-  port: 3307             // Add this line to specify the custom port
+  port: 3306             // Add this line to specify the custom port
 });
 
 db.connect((err) => {
